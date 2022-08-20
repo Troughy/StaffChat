@@ -23,5 +23,5 @@ jobs:
       run: mvn package
     - uses: actions/upload-artifact@v3
       with:
-        name: StaffChat-latest.jar
+        name: StaffChat-latest
         path: /home/runner/work/StaffChat/StaffChat/target/StaffChat-1.0.jar
