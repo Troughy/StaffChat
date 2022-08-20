@@ -26,7 +26,6 @@ import java.util.stream.Stream;
 public class StaffChat extends JavaPlugin {
 
     private FileConfiguration langConf;
-    private static boolean papi = false;
 
     @Override
     public void onEnable() {
@@ -36,7 +35,6 @@ public class StaffChat extends JavaPlugin {
         registerCommands();
     }
 
-    public static boolean getPapi() { return papi; }
 
     private void registerCommands() {
         Objects.requireNonNull(getCommand("staffchat"), "getCommand(\"staffchat\") returned null. perhaps another plugin registered this command?").setExecutor(new CommandHandler(this));
@@ -48,7 +46,7 @@ public class StaffChat extends JavaPlugin {
 
     private void checkDependencies() {
         if (Bukkit.getPluginManager().getPlugin("PlaceholderAPI") != null) {
-            papi = true;
+            PlaceholderUtil.setPAPI(true);
         }
     }
 
