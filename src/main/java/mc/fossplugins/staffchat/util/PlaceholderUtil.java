@@ -1,6 +1,5 @@
 package mc.fossplugins.staffchat.util;
 
-import mc.fossplugins.staffchat.StaffChat;
 import me.clip.placeholderapi.PlaceholderAPI;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;

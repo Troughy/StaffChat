@@ -11,12 +11,10 @@ import java.util.Objects;
 
 public class CommandHandler implements CommandExecutor {
 
-    //Hopefully @NotNull is there in java 8
     private final StaffChat staffChat;
     public CommandHandler(StaffChat staffChat) {
         this.staffChat = staffChat;
     }
-
 
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command cmd, @NotNull String label, String[] args) {
@@ -26,8 +24,7 @@ public class CommandHandler implements CommandExecutor {
                 return false;
             }
             if (args.length != 1 || !args[0].equalsIgnoreCase("reload")) {
-                //TODO: Add github repo link
-                sender.sendMessage(Objects.requireNonNull(StringUtil.translate("cmd-usage"), "Corrupt lang file. Please report this issue on Github"));
+                sender.sendMessage(Objects.requireNonNull(StringUtil.translate("cmd-usage"), "Corrupt lang file. Please report this issue on Github: https://github.com/FOSSPlugins/StaffChat"));
                 return false;
             }
             sender.sendMessage(staffChat.reloadConfigs() ? StringUtil.translate("reload-success") : StringUtil.translate("reload-err"));
