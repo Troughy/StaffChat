@@ -1,0 +1,4 @@
+no-perm: "&cNincs jogod ehhez."
+cmd-usage: "&cHasználat: /staffchat reload"
+reload-success: "&aKonfiguráció sikeresen frissítve."
+reload-err: "&cHiba történt a konfiguráció frissítése közben."

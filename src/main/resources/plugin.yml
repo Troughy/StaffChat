@@ -1,0 +1,16 @@
+name: StaffChat
+main: mc.fossplugins.staffchat.StaffChat
+author: FOSSPlugins
+version: 1.0
+api-version: 1.13
+softdepend: [PlaceholderAPI]
+
+commands:
+  staffchat:
+    description: Used for reloading StaffChat.
+
+permissions:
+  staffchat.use:
+    description: Allows sending and receiving messages to/from the StaffChat.
+  staffchat.cmd:
+    description: Allows for reloading configuration.

@@ -1,0 +1,18 @@
+# Free and open source - https://github.com/FOSSPlugins
+
+# The language to be used by the plugin. Put the name of the file in languages, without the '.yml'.
+# Example: "en_US"
+lang: "en_US"
+
+# If this prefix is added to a message sent to the chat, and the sender has the right permission, the message will be sent to the staff chat.
+# Example: saying '#Hi.' in the chat will result in 'Hi.' being sent to the staff chat if the sender has permission.
+# (It is possible to escape the prefix. Saying '\#Hi.' in the chat will result in '#Hi.' being sent to the normal chat.)
+prefix: "#"
+
+# This is how messages sent to the staffchat will look like.
+# Check out this picture for color codes: https://i.redd.it/yldfhnb4xp411.png (credits to u/captaindinny)
+# Built-in placeholders
+# %name%  -  The sender's name
+# %message%      -  The message
+# PlaceholderAPI also supported.
+msg-format: "&7[&bStaffChat&7] &f%name%&7: &f%message%"

@@ -1,0 +1,4 @@
+no-perm: "&cYou don't have permission to do that."
+cmd-usage: "&cUsage: /staffchat reload"
+reload-success: "&aSuccessfully reloaded configuration."
+reload-err: "&cError while reloading configuration."
