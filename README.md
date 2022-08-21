@@ -2,7 +2,9 @@
 A way for staff members to chat privately.
 
 ### Contributing
-Your contributions are appreciated. If you have any suggestions, speak more than one language or find a bug, please first create a new [issue](https://github.com/FOSSPlugins/StaffChat/issues).  
+Your contributions are appreciated.  
+If you speak more than one language, you can help translating the project by clicking [here](https://crwd.in/foss-staffchat).  
+If you have any suggestions or bugs to report, please create an [issue](https://github.com/FOSSPlugins/StaffChat/issues).  
 You can also look for issues with the https://github.com/FOSSPlugins/StaffChat/labels/good%20first%20issue label and comment on the issue if you want to start working on it.
 
 ### Building
