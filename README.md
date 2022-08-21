@@ -13,4 +13,8 @@ Download the newest version of Apache Maven from [here](https://maven.apache.org
 This project uses the Azul Zulu JDK 17.0.4, which is based on OpenJDK. Download from [here](https://www.azul.com/downloads/?version=java-17-lts&package=jdk).  
 Finally, run `mvn package` in the project's directory. This will create the `StaffChat-X.X.jar` file in the `target` folder.
 
-1.19+ - Check out [No Chat Reports](https://www.curseforge.com/minecraft/mc-mods/no-chat-reports). It also removes the warning you get when you escape the prefix (with \).
+### Latest build
+If you want the latest (unstable) version, click [here](https://github.com/FOSSPlugins/StaffChat/actions/workflows/maven.yml), click on the latest successful workflow run, scroll down to the `Artifacts`, and click on `StaffChat-latest`. This will download a zip file which will contain the plugin jar file.
+  
+  
+1.19+ - Check out [No Chat Reports](https://www.curseforge.com/minecraft/mc-mods/no-chat-reports). It also removes the warning you get when you escape the prefix (with \\).
