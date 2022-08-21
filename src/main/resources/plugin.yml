@@ -1,7 +1,7 @@
 name: StaffChat
 main: mc.fossplugins.staffchat.StaffChat
 author: FOSSPlugins
-version: 1.0
+version: 1.1
 api-version: 1.13
 softdepend: [PlaceholderAPI]
 

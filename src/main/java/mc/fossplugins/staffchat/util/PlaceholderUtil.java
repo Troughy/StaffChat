@@ -17,6 +17,7 @@ public class PlaceholderUtil {
         config = newConfig;
     }
 
+    @SuppressWarnings("ReassignedVariable")
     public static String setPlaceholders(Player p, String message) {
         String retval = Objects.requireNonNull(config.getString("msg-format"), "config#getString returned null for 'msg-format'. config was not validated?");
         if (PAPI) {

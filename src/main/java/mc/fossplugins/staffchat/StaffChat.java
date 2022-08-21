@@ -35,7 +35,6 @@ public class StaffChat extends JavaPlugin {
         registerCommands();
     }
 
-
     private void registerCommands() {
         Objects.requireNonNull(getCommand("staffchat"), "getCommand(\"staffchat\") returned null. perhaps another plugin registered this command?").setExecutor(new CommandHandler(this));
     }
