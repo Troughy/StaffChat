@@ -14,4 +14,4 @@ Run `mvn clean package` in the project's directory. This will create the `StaffC
 If you want the latest build (aka `nightly build`), click [here](https://github.com/Troughy/StaffChat/actions/workflows/maven.yml), click on the latest successful workflow run, scroll down to the `Artifacts`, and click on `StaffChat-latest`. This will download a zip file which will contain the plugin jar file.
   
   
-1.19+ - Check out [No Chat Reports](https://www.curseforge.com/minecraft/mc-mods/no-chat-reports) and [NoEncryption](https://www.spigotmc.org/resources/noencryption.102902/). It also removes the warning you get when you escape the prefix (with \\).
+1.19+ - Check out [No Chat Reports](https://www.curseforge.com/minecraft/mc-mods/no-chat-reports) for the client, and [NoEncryption](https://www.spigotmc.org/resources/noencryption.102902/) for the server. No Chat Reports also removes the warning you get when you escape the prefix (with \\).
